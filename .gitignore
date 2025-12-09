@@ -1,0 +1,16 @@
+# Ignore sensitive keys
+.env
+.env.txt
+
+# Ignore virtual environment
+venv/
+venv311/
+.venv/
+
+# Ignore database and cache
+chroma_db/
+__pycache__/
+*.pyc
+
+# Ignore temp files
+temp_*
